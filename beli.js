@@ -6,7 +6,6 @@ function beli(uang, obj){
       let kembalian = uang - obj.harga
       if (kembalian > 0) {
         let object = {
-           'name' : obj.item,
            'kembalian' : kembalian
         }
         console.log(`Saya sudah membeli ${obj.item} uang kembaliannya ${kembalian}`);
